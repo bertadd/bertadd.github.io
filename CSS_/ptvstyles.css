@@ -107,18 +107,20 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Photo grid */
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-}
-.photo-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  border: 1px solid #332A2C;
-}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between image and text */
+  max-width: 600px;
+  margin: 20px auto;
+        }
+  img {
+   width: 150px; /* Adjust image size */
+   height: auto;
+   border-radius: 8px; /* Optional: rounded corners */
+        }
+
 
 /* Comments */
 .comment {
