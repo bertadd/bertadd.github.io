@@ -108,7 +108,7 @@ nav ul li a:hover {
 }
 
 
-.container {
+.albums {
   display: flex;
   align-items: center;
   gap: 20px; /* Space between image and text */
