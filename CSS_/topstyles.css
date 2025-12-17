@@ -70,7 +70,6 @@ nav ul li a:hover {
 .content { order: 2; }
 .sidebar.right { order: 3; }
 
-/* Card / panel styling */
 .card {
   background: #332A2C;
   padding: 16px;
@@ -107,7 +106,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Photo grid */
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -133,13 +131,13 @@ button {
   text-align: center;
 }
 
-/* ========== Responsive ========== */
+
 @media (max-width: 1100px) {
   :root { --sidebar-w: 240px; }
 }
 
 @media (max-width: 900px) {
-  /* Stack columns: Left → Center → Right */
+
   .layout {
     grid-template-columns: 1fr;
   }
