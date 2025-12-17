@@ -100,6 +100,10 @@ table {
     border-radius: 8px;
     overflow: hidden;
 }
+th,td {
+    padding: 12px 15px;
+    text-align: left;
+}
 .site-footer {
   padding: 20px 0 40px;
   color: #828282;
