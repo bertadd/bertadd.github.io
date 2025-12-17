@@ -119,6 +119,11 @@ nav ul li a:hover {
   border-radius: 8px;
   border: 1px solid #332A2C;
 }
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 
 .site-footer {
   border-top: 1px solid #332A2C;
