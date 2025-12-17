@@ -22,15 +22,4 @@ document.getElementById("toptrivia").addEventListener("click", function() {
 });
 
 
-document.getElementById('genreForm').addEventListener('submit', function () {
-
-      const input = document.getElementById('favoriteGenre').value
-
-      if (input === 'alternative') {
-        alert("that's my favorite");
-      } else {
-        alert('you have good taste');
-      }
-    });
-
 
