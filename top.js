@@ -1,3 +1,11 @@
+const messages = [
+    "Hello there! 👋",
+    "Have a great day! 🌞",
+    "Keep up the good work! 💪",
+    "You're awesome! ⭐",
+    "Stay positive and smile! 😊"
+];
+
 function getRandomMessage() {
     const index = Math.floor(Math.random() * messages.length);
     return messages[index];
