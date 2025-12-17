@@ -22,7 +22,7 @@ document.getElementById("toptrivia").addEventListener("click", function() {
 });
 
 
-document.getElementById('genreForm').addEventListener('submit', function (e) {
+document.getElementById('genreForm').addEventListener('submit', function () {
 
       const input = document.getElementById('favoriteGenre').value
 
