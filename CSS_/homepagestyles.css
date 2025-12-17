@@ -92,7 +92,15 @@ form{
     border: 20px solid #332A2C;
     width: fit-content;
 }
-
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    background-color: #828282;
+    border-radius: 8px;
+    overflow: hidden;
+}
 .site-footer {
   padding: 20px 0 40px;
   color: #828282;
