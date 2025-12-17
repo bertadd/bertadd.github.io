@@ -150,13 +150,7 @@ button {
 }
 
 @media (max-width: 520px) {
-  .profile-hero .container {
-    grid-template-columns: 80px 1fr;
-  }
-  .avatar {
-    width: 80px;
-    height: 80px;
-  }
+
   .photo-grid {
     grid-template-columns: 1fr;
   }
