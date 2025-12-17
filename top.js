@@ -1,4 +1,4 @@
-const messages = [
+const topmessages = [
     "Hello there! 👋",
     "Have a great day! 🌞",
     "Keep up the good work! 💪",
@@ -7,8 +7,8 @@ const messages = [
 ];
 
 function getRandomMessage() {
-    const index = Math.floor(Math.random() * messages.length);
-    return messages[index];
+    const index = Math.floor(Math.random() * topmessages.length);
+    return topmessages[index];
 }
 
 document.getElementById("toptrivia").addEventListener("click", function() {
@@ -19,3 +19,4 @@ document.getElementById("toptrivia").addEventListener("click", function() {
         console.error("Error showing popup:", error);
     }
 });
+
