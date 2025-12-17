@@ -96,10 +96,7 @@ table {
     border: 20px solid #332A2C;
     width: fit-content;
 }
-th,td {
-    padding: 12px 15px;
-    text-align: left;
-}
+
 .site-footer {
   padding: 20px 0 40px;
   color: #828282;
